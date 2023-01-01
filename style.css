@@ -3,24 +3,20 @@
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+body {
+  margin-top: 100px;
+  line-height: 1.5;
+}
 .container {
-  text-align: center;
-
   margin: 60px auto;
   max-width: 800px;
 }
-h2 {
-  font-size: 48px;
-}
-h1,
-h2,
-h3 {
-  margin: 0;
-  display: block;
-  font-weight: bold;
-}
 h1 {
   font-size: 96px;
+}
+
+h2 {
+  font-size: 48px;
 }
 h3 {
   font-size: 24px;
@@ -57,14 +53,8 @@ h3 {
   justify-content: center;
 }
 p {
-  display: block;
-  background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
-  margin: 10px;
 }
 
 .email a {
@@ -76,4 +66,20 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
+}
+footer {
+  margin-top: 30px;
+}
+.launch {
+  text-align: left;
+  border-radius: 4px;
+  padding: 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.launch:hover {
+  color: blue;
 }
