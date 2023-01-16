@@ -224,6 +224,9 @@ nav a:hover {
 }
 .contact-page {
   background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+  
 }
 .contact-page a {
   color: #272142;
@@ -250,9 +253,10 @@ nav a:hover {
   .project-description {
     text-align: center;
   }
-  .hero {
-    padding: 80px 20px;
+  .contact-page {
+    padding:10px;
   }
+  
   .content-container {
     text-align: center;
     padding-top: 40px;
@@ -275,5 +279,7 @@ nav a:hover {
 h4{
   font-size: 26px;
 }
+
+
 
 }
