@@ -19,7 +19,7 @@ body {
 }
 .hero {
   background-color: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -167,7 +167,7 @@ p {
   line-height: 30px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
