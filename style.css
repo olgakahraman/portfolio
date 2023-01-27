@@ -35,7 +35,7 @@ h1 {
 }
 h3 {
   font-size: 36px;
-font-family: var(--heading-font-family);
+  font-family: var(--heading-font-family);
   font-weight: bold;
   line-height: 2;
 
@@ -159,8 +159,8 @@ footer .contact-box {
   padding: 30px 120px;
   border-radius: 10px;
 }
-footer .contact-box p{
-  margin:0;
+footer .contact-box p {
+  margin: 0;
 }
 p {
   font-size: 18px;
@@ -226,7 +226,6 @@ nav a:hover {
   background: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
-  
 }
 .contact-page a {
   color: #272142;
@@ -254,9 +253,9 @@ nav a:hover {
     text-align: center;
   }
   .contact-page {
-    padding:10px;
+    padding: 10px;
   }
-  
+
   .content-container {
     text-align: center;
     padding-top: 40px;
@@ -275,11 +274,8 @@ nav a:hover {
   nav {
     padding: 0px 8px;
   }
- 
-h4{
-  font-size: 26px;
-}
 
-
-
+  h4 {
+    font-size: 26px;
+  }
 }
